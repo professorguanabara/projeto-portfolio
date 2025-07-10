@@ -30,12 +30,12 @@ body {
 }
 
 header {
-  background-color: var(--destaque);
-  color: var(--texto);
-  padding: 10px;
   display: flex;
   justify-content: flex-end;
   align-content: center;
+  background-color: var(--destaque);
+  color: var(--texto);
+  padding: 10px;
 }
 
 nav#menu ul {
@@ -78,11 +78,11 @@ section#ficha img.foto {
   object-fit: cover;
   overflow: hidden;
   border-radius: 50%;
+  margin-bottom: 15px;
   border: 5px solid var(--fundo-card);
   outline: 5px solid var(--destaque);
   display: block;
   margin: auto;
-  margin-bottom: 15px;
 }
 
 section#ficha h1 {
@@ -97,7 +97,7 @@ div#social {
   justify-content: center;
   align-items: center;
   font-size: 1.6em;
-  gap: 1em;
+  gap: 15px;
   margin-top: 15px;
 }
 
