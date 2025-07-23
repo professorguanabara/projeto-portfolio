@@ -1,5 +1,8 @@
 const botao = document.getElementById('botao-tema');
 const body = document.body;
+// Persistência do tema
+const temasalvo = localStorage.getItem('tema');
+temaEscuro(temasalvo === 'escuro');
 
 // Função para alternar entre tema claro e escuro
 function temaEscuro(tipo) {
@@ -11,10 +14,6 @@ function temaEscuro(tipo) {
     botao.innerHTML = '<i class="fa-solid fa-moon"></i>';
   }
 }
-
-// Persistência do tema
-const temasalvo = localStorage.getItem('tema');
-temaEscuro(temasalvo === 'escuro');
 
 botao.addEventListener('click', () => {
   const isescuro = body.classList.toggle('escuro');
