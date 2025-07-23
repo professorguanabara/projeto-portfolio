@@ -1,4 +1,4 @@
-const botao = document.getElementById('tema');
+const botao = document.getElementById('botao-tema');
 const body = document.body;
 
 // Função para alternar entre tema claro e escuro
