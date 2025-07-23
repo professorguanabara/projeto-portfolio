@@ -1,5 +1,6 @@
 const botao = document.getElementById('botao-tema');
 const body = document.body;
+
 // Persistência do tema
 const temasalvo = localStorage.getItem('tema');
 temaEscuro(temasalvo === 'escuro');
